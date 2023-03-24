@@ -1,0 +1,42 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.recipe{
+    margin:20px;
+    padding: 10px;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+ul{
+    padding: 5px;
+}
+
+.container{
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+
+.ing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipe:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
